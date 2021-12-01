@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "public": "dist/tic-tac-toe-hero",
+    "site": "tic-tac-toe-hero",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "jammed-block"
+  },
+  "targets": {
+    "jammed-block": {
+      "hosting": {
+        "jammed-block": [
+          "tic-tac-toe-hero"
+        ]
+      }
+    }
+  }
+}
